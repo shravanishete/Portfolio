@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel='stylesheet' href="contact.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="containerr">
+            <ul class="nav-links">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <hr style="margin-top: 20px;">
+        </div>
+    </nav> 
+    <div class="container">
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form id="contactForm">
+                <div class="input-group">
+                   
+                    <input type="text"placeholder="Your Name" id="name" name="name" required>
+                   
+                </div>
+                <div class="input-group">
+                 <input type="email" placeholder="Your Email" id="email" name="email" required>
+                    
+                </div>
+                <div class="input-group">
+                    <input type="text" id="subject" placeholder="Subject" name="subject" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" name="message" placeholder=" Message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="thankYouMessage" style="display: none;">
+                <p>Thank you for your message! We will get back to you soon.</p>
+            </div>
+        </div>
+        <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <ul>
+                <li><span class="symbol">👤</span>Name: Shravani Shete</li>
+                <li><span class="symbol">✉️</span>Email: sheteshravani@gmail.com</li>
+                <li><span class="symbol">📞</span>Contact: 7219897004</li>
+                <li><span class="symbol">  📍 </span>Location: Pune</li>
+            </ul>
+        </div>
+    </div>
+    <div class="social-media">
+        <a href="https://github.com/shravanishete" target="_blank"><img src="images/github.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/shravani-shete-850531198" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://www.instagram.com/_shravu_10?igsh=MXdxcmdqZnZwbTZ3Yw==" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+    </div>
+    <script src="contact.js"></script>
+    <script src='https://kit.fontawesome.com/3b57a2a2a7.js'></script>
+</body>
+</html>

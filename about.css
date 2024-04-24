@@ -1,0 +1,141 @@
+body {
+    margin-top: 4px;
+    padding: 0;
+    width: 80%;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+   
+    color: #fff;
+    
+    font-size: 20px;
+    height: 40px;
+}
+
+.container {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    padding-bottom: 5%;
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    background-color: #965793;
+    padding: 10px;
+    border-radius: 6px;
+    width: 120px;
+    display: inline;
+    margin-right: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-links li :hover {
+    
+    color:  #201320 ;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #e8e7ec;
+}
+
+.background-image {
+    width: 70%;
+    height: 160px;
+    background-image: url('images/aboutme.jpg');
+    background-size: 30%;
+    margin-top: 1px;
+    background-repeat: no-repeat;
+    padding-left: 600px;
+    background-position: top center;
+}
+
+.containerr {
+    margin-top: 14%;
+    padding: 10px;
+    width: -90px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -150px; /* Half the height of the background image to center it vertically */
+   
+}
+
+.about-me {
+    padding: 30px;
+    background-color: rgb(243, 236, 236);
+    width: 75%;
+    height: 60%;
+    margin-left: 25%;
+    margin-top: 2px;
+    border: none;
+    box-shadow: 10px 10px 10px 10px rgb(70, 13, 70);
+    border-radius: 20px;
+}
+
+.about-me:hover {
+    border: 6px solid;
+    cursor: pointer;
+}
+
+.about-me h2 {
+    color: #944890;
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.about-me h3 {
+    color: rgb(34, 162, 194);
+    padding-top: 6px;
+}
+
+.about-me p {
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: rgb(183, 63, 199);
+}
+
+.about-me ul {
+  
+    padding-left: 20px;
+    list-style-type: none;
+    color: rgb(119, 24, 99);
+    font-family:Bodoni MT;
+}
+
+.about-me ul li {
+    margin-bottom: 10px;
+    list-style: disc;
+
+}
+/*  Footer  */
+footer {
+    background: #f8f6f6;
+    padding-left: 30%;
+    margin-top: 70px;
+    color: #5c6061;
+    text-align: center;
+  }
+  
+  footer span a {
+    color: #313333;
+    text-decoration: none;
+  }
+  
+  footer span a:hover {
+    text-decoration: underline;
+  }

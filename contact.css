@@ -1,0 +1,158 @@
+/* Navbar styles */
+.navbar {
+ 
+    color: #96c1cc;
+   margin: 0 auto;
+    font-size: 20px;
+    height: 42px;
+}
+
+.containerr {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    padding-top: 8px;
+    list-style: none;
+    display: flex;
+    padding-top: 6px;
+}
+
+.nav-links li {
+    background-color:  #bce3ec;
+    border-radius: 11px;
+    width: 140px;
+    height:40px ;
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-links li:hover{
+    background-color: #edf0f3;
+    color: rgb(3, 31, 39);
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #05020f;
+    
+}
+/*main*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.contact-form, .contact-info {
+    width: 30%;
+    height: 50%;
+    background-color: #eef2f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(1, 17, 29, 0.1);
+}
+.contact-info{
+    margin-top: 20px;
+    text-align:justify;
+    padding-left:5%;
+   
+}
+.contact-form h2{
+    padding-left: 18%;
+    color: #333;
+    font-family: Bradley Hand ITC;
+    font-size: 35px;
+} 
+.contact-info h2 {
+    color: #333;
+    text-align: center;
+    font-family: Bradley Hand ITC;
+    padding-bottom: 7%;
+    font-size: 35px;
+}
+.contact-form{
+   padding-left: 8%;
+   padding-top: 8px;
+}
+.input-group {
+    margin-bottom: 20px;
+    width: 70%;
+    margin-right: 20%;
+    
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3d8a9b;
+    color: #e8eff1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 19%;
+    font-weight:bold
+}
+button:hover{
+    background-color:#f1f8fc ;
+    color:rgb(5, 44, 70) ;
+    animation: fluctuate 1s infinite alternate;
+    transform: 0.5s ease-in-out;
+    border: solid 5px rgb(2, 31, 43);
+}
+
+.symbol {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.contact-info ul {
+    list-style-type:none;
+    padding-right: 20px;
+
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(22, 88, 88);
+    font-weight:600;
+    text-align: justify ;
+}
+
+.social-media {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0 20px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
+}

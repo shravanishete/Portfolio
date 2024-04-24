@@ -1,0 +1,138 @@
+/* Navbar styles */
+.navbar {
+ 
+    color: #f82251;
+   
+    font-size: 20px;
+    height: 42px;
+}
+
+.containerr {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    padding-top: 8px;
+    list-style: none;
+    display: flex;
+    padding-top: 6px;
+}
+
+.nav-links li {
+    background-color: #e9486b;
+    border-radius: 11px;
+    width: 140px;
+    height:40px ;
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-links li:hover{
+    background-color: #ecdaea;
+    color: rgb(19, 1, 11);
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #f8f6f7;
+}
+    
+/*main*/
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.column {
+    width: calc(25% - 10px);
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient(to bottom,#FF204E,#A0153E,#5D0E41);
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.body {
+    padding: 10px;
+}
+.body p{
+    font-family:Arial;
+    text-align: justify;
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.view-button {
+    padding: 6px 14px;
+    background-color: #FF204E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hover-image {
+ display: none;
+ box-shadow: 10px 10px 10px 10px #220101;
+ width: 400px; 
+ height: auto; 
+ position: absolute;
+ z-index: 1;
+ transform: translateY(-50%);
+}
+.hover-imagee {
+    
+    display: none;
+    box-shadow: 10px 10px 10px 10px #220101;
+    width: 400px; 
+    height: auto; 
+    position:relative;
+    z-index: 1;
+    left: -50%;
+}
+.view-button:hover + .hover-image {
+    display: inline-block;
+}
+.view-button:hover +.hover-imagee {
+    display: inline-block;
+}
+
+/*  Footer  */
+ footer {
+    background: #f8f6f6;
+    
+    margin-top: 1px;
+    color: #5c6061;
+    text-align: center;
+  }
+  
+  footer span a {
+    color: #313333;
+    text-decoration: none;
+  }
+  
+  footer span a:hover {
+    text-decoration: underline;
+  }

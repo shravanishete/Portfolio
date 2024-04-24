@@ -1,0 +1,145 @@
+/* Navbar styles */
+.navbar {
+ 
+    color: #ce1da8;
+   
+    font-size: 20px;
+    height: 42px;
+}
+
+.containerr {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    padding-top: 8px;
+    list-style: none;
+    display: flex;
+    padding-top: 6px;
+}
+
+.nav-links li {
+    background-color:   #ca49ae;
+    border-radius: 11px;
+    width: 140px;
+    height:40px ;
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-links li:hover{
+    background-color: #ecdaea;
+    color: rgb(19, 1, 11);
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #f8f6f7;
+}
+    
+/*main*/
+ 
+.skills {
+    background-color: rgb(243, 236, 236);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px rgb(85, 14, 69);
+    padding: 18px;
+    
+    margin-top: 10% ;
+    margin-left: 120px;
+    width: 80%;
+   
+   
+}
+h2{
+    font-size: 30px;
+    color: rgb(88, 33, 84);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.column {
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(68, 17, 55, 0.1);
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+.skills:hover {
+    border: 6px solid rgb(70, 13, 70);
+   
+    border-radius: 20px;
+}
+
+.skill-row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.skill-row:hover{
+    color: white;
+}
+.front-end, .back-end, .database {
+    color:  rgb(197, 91, 201);
+    font-size: 20px;
+    font-style: italic;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.front-end h3:hover, .back-end h3:hover, .database h3:hover {
+    background-color: rgb(49, 4, 42);
+    color:white;
+    border-radius: 10px rgb(129, 16, 110) ;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.sublist {
+    list-style-type:disc;
+    padding-left: 90px;
+    display: none;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.sublist li {
+    font-style:normal;
+    font-family:Franklin Gothic Demi Cond;
+    font-weight: 900;
+    color:  rgb(139, 36, 100);
+    justify-content:space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+ /*  Footer  */
+ footer {
+    background: #f8f6f6;
+    
+    margin-top: 180px;
+    color: #5c6061;
+    text-align: center;
+  }
+  
+  footer span a {
+    color: #313333;
+    text-decoration: none;
+  }
+  
+  footer span a:hover {
+    text-decoration: underline;
+  }
+    
